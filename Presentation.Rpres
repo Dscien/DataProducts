@@ -1,0 +1,44 @@
+Data Products Course Project
+========================================================
+author: 
+date: 
+autosize: true
+
+
+Description With Code
+========================================================
+
+This application will take inputs from the user for initial velocity and angle and calculate the range of a projectile launched with those parameters.
+
+For example, given a initial velocity of 5 m/s and an angle of 45 degrees
+
+```{r}
+
+((5 ^2 )/9.8) * sin( 2 * 45 * pi / 180)
+      
+
+```
+
+Appliation Inputs
+========================================================
+
+
+
+Velocity - This value must be between 0 and 300,000 m/s.
+
+Angle - this value must be between 0 and 90 degrees.  90 degrees means the projectile would be launched directly upwards.
+
+Appliation Output
+========================================================
+
+
+Range - This is the distance from the initial launch point that the projectile will reach.  
+
+Appliation Assumptions
+========================================================
+
+
+1. Launch and landing points are at the same elevation
+2. No air resistance
+3. Constant gravitational acceleration of 9.8m/s^2
+
